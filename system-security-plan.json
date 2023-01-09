@@ -1,0 +1,2161 @@
+{
+  "system-security-plan": {
+    "uuid": "a9907915-c672-42b8-994b-5a34d96b41b4",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-01-04T13:44:27.525991-06:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.2"
+    },
+    "import-profile": {
+      "href": "REPLACE_ME"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": "REPLACE_ME"
+        }
+      ],
+      "system-name": "REPLACE_ME",
+      "description": "REPLACE_ME",
+      "security-sensitivity-level": "REPLACE_ME",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "REPLACE_ME",
+            "description": "REPLACE_ME",
+            "confidentiality-impact": {
+              "base": "REPLACE_ME"
+            },
+            "integrity-impact": {
+              "base": "REPLACE_ME"
+            },
+            "availability-impact": {
+              "base": "REPLACE_ME"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "REPLACE_ME",
+        "security-objective-integrity": "REPLACE_ME",
+        "security-objective-availability": "REPLACE_ME"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "REPLACE_ME"
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "cbf4e809-ee4a-4176-9fc7-039969b580c6"
+        }
+      ],
+      "components": [
+        {
+          "uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+          "type": "this-system",
+          "title": "This System",
+          "description": "",
+          "status": {
+            "state": "operational"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "This is the control implementation for the system.",
+      "implemented-requirements": [
+        {
+          "uuid": "3f0f9bcb-4bb6-4713-a022-b08bcaf817a0",
+          "control-id": "ac-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a09b1407-ab79-44e6-824b-2e2061378f36",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "898f1b42-050c-4f9f-96bc-f2d510b786ff",
+          "control-id": "ac-14",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "1e0066d6-be34-4e07-b6d3-4e47229c57f6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "8e01136f-362f-47fd-a309-bd582c23663b",
+          "control-id": "ac-17",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "82675a17-216c-4cfa-96f2-0349aa40df74",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e54cac31-4ef5-4e97-9291-aa22c839a5ff",
+          "control-id": "ac-18",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "74bbc916-6a6d-4f19-b037-47eb1b0e45f8",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3ede2439-db83-4ff5-96d2-05117c86af90",
+          "control-id": "ac-19",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "68a7a010-e42f-48e1-b991-76c78be57004",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "8100ec33-c4c7-4f51-918e-1444ea2a18c5",
+          "control-id": "ac-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "405f12ee-ef81-49b0-8d83-9dddb4ab7fc7",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ec9b51f5-e76a-43cc-ba91-9592c96a73fe",
+          "control-id": "ac-20",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "d7d95282-0ef2-4f31-b621-e0e3d35a9249",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e4ae456d-a7a4-4987-93c8-4304474ab9a3",
+          "control-id": "ac-22",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "43647003-b67e-43ea-937f-8d0443f08eff",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "bc058b4e-f8f5-410c-9622-7dea5539fdda",
+          "control-id": "ac-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b8a3fe02-6082-4356-b1cf-9449bc21c247",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "c3fb0e9c-6c84-42c0-807d-f5a8881a09c6",
+          "control-id": "ac-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "af99da7d-da86-4ed1-b1ac-14c4dbd5c5ba",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4491edc0-54ff-4aae-abf1-0f978fce2797",
+          "control-id": "ac-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "2ea61f64-3370-458c-9e4c-86ee0c2b015f",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "55606dfb-f3dd-49fe-9f99-5b9a23eb2e1a",
+          "control-id": "at-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b32bc280-879e-4211-bfc1-52d0c957718d",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "49da9f84-b36b-4064-a368-e53aa021591c",
+          "control-id": "at-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "fd122c8d-7b62-4cce-9d14-6ca355cef68b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ae0e243c-2bfe-42d8-830c-bc9a5904109e",
+          "control-id": "at-2.2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "edc99826-1b6a-421c-a7c6-0bad0bd7c8f1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "704b80ba-75bc-449f-a3d5-9defb1319419",
+          "control-id": "at-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "00ab5835-3f19-4aab-8387-c5e4dcfa29c7",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e0bbfcc0-55c0-4a2a-a5df-9afd6d076e61",
+          "control-id": "at-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "cc4a9e01-467f-4113-b695-18177e389ffa",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "572340e0-b0a2-4aa9-a24b-2609ca2a9167",
+          "control-id": "au-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "3931d302-c030-4ffd-ad13-4f70d23e44ad",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "98f9be36-642f-48a7-8fad-578557b595d1",
+          "control-id": "au-11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "f786eaf8-6989-46b2-9652-1d74e0748426",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "21506b8b-e242-4c53-9a08-8535594f8803",
+          "control-id": "au-12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "458a8cd0-65db-4916-ad43-d981489236c5",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "68f7f9b9-7e41-4ec8-958a-ddfccb97d757",
+          "control-id": "au-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "69f19ace-e635-481e-8365-9ec1df38e497",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "79e54497-9345-46ce-8836-7cf49c1e4517",
+          "control-id": "au-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "65b48bd5-c39c-4d3d-b633-6168102cef13",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9aa43293-feab-403f-853a-475f231ea897",
+          "control-id": "au-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b4d9f678-522a-4440-b8a2-bafdc244cb47",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d6feb71e-6bce-4e94-a58e-679dc39e73fa",
+          "control-id": "au-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "c7ea5d7d-7b07-45ee-a94a-ec174e906f72",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3b59057f-f5ca-4634-bb1b-f31c7baa2f08",
+          "control-id": "au-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "f21ff148-7d81-4e05-a560-bcb00d3376de",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "050382d0-b51e-4b1f-87b6-b3b61787a3e1",
+          "control-id": "au-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bb54c371-485c-41ed-aa60-cf52f2a439de",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f0e4f27d-c09a-4f4e-af3c-61072f63fc54",
+          "control-id": "au-9",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "cd610623-012f-4837-b837-477177c3bd36",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "0857278c-6e1b-4047-a873-2bb81c623b4c",
+          "control-id": "ca-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "2c720ea9-8b68-453f-990d-a9b947ef70b6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "68af9a5e-2927-4424-a982-9a2534daeaa3",
+          "control-id": "ca-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "0704d06d-2281-43f2-ba60-31230479489b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "89dc6ab1-6094-45a6-bbaa-01d9bc619315",
+          "control-id": "ca-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "767a7ee0-1f4d-4bad-b788-ae3b9fb89f14",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "249417ad-2ee4-4db2-b1da-bb05237e342c",
+          "control-id": "ca-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "d9b2e4ca-7759-4a98-8f84-a7eed4ffcce0",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "85fc6699-90f0-48ca-8bc3-5c130d61b7a5",
+          "control-id": "ca-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bfb18bb9-1a67-42bf-8f5a-95e5992bdcd0",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "aa31b17c-2663-4520-9625-e86fe9012b1f",
+          "control-id": "ca-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e45af53a-d2ac-47a8-aefc-1ac4b7f6330c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ba890c2c-f55e-4cfd-9199-91a720de7aa1",
+          "control-id": "ca-7.4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "db244ead-e46e-4057-b249-22b5ea0de71b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "c01724fc-98d0-4e13-b91c-54bfb9505beb",
+          "control-id": "ca-9",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bed9f9c4-4a82-408f-8ba3-c39c2005699c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "beda42ac-5406-45de-ba23-0d3c143d6cb4",
+          "control-id": "cm-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "cf127010-612d-4305-b1b5-f82f481ecbae",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "88474e32-9b09-44c6-aa64-f797bd4ced37",
+          "control-id": "cm-10",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "471f1bdc-bfdd-450e-b54d-76fc2d716018",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9f8353a9-fb08-41b5-8165-c570153b99a7",
+          "control-id": "cm-11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "47a00df9-ef10-41ed-8e82-1fde6033b5ba",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "909dd626-3bb1-4a30-8d7d-4e49b09b3bff",
+          "control-id": "cm-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4f8be81a-082d-4ba9-9b9a-6bea6d03bd53",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5ce9ccd3-5a4f-47e7-8b8e-23fabcc272b3",
+          "control-id": "cm-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "ea217ff4-2c3c-435b-9939-79efc5e76f24",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7cc98201-e841-4ea0-a2b5-fc8a33d96352",
+          "control-id": "cm-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "5f64b56d-983b-4326-843f-088cb38aba15",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6ddffc99-228c-4f3d-999c-c04a6f0e1907",
+          "control-id": "cm-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "713436bd-1907-4c9d-a60b-cfa0c3305d81",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "031df290-836c-4b59-9167-9ced1f1f9664",
+          "control-id": "cm-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b9ef0396-e4b1-44b1-8a6e-7bca7d497095",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3fde680b-8771-46e8-a90c-52327f20b40d",
+          "control-id": "cm-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "f1bb7da9-bcab-41ef-80a6-73db517c9470",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5a82bbc5-ac67-44b9-a961-d03bb5c67ebe",
+          "control-id": "cp-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "83d9c1c8-d83b-49b8-8d07-7a4013fe226b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "666e7335-3bc0-4f1f-8df1-363378c5194f",
+          "control-id": "cp-10",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a4220267-a284-4cb7-ab77-f1320da7316f",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "84cde0a3-c085-49cb-87df-e311df1c03aa",
+          "control-id": "cp-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "fed96cd0-c8d1-4995-bbde-a80d75118415",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "07ec7f8e-6cc1-48b6-b360-30fa9042c2fe",
+          "control-id": "cp-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "28261e95-0b15-4ff0-87f7-b8bcfdaf2131",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7014fb53-2a34-4dc4-81da-6b1986283fd2",
+          "control-id": "cp-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "eb0038eb-5c76-4c14-848a-b040b07fc9e4",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ed28d7dd-da5d-4976-b20b-936ec9a18ffb",
+          "control-id": "cp-9",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "38aceb27-fb59-4384-b55d-6a7954b09268",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "62221e93-d090-41cf-bf49-7565006a5f3a",
+          "control-id": "ia-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "6f6c6d34-850c-4daa-9980-7971c4dcb90d",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "afffa56f-3b62-4293-96d7-4cd8f661a03d",
+          "control-id": "ia-11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a57d1993-685b-43e8-8c07-e42691e551a7",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f26d6e45-90bf-4e33-b7d3-5c56c8f75970",
+          "control-id": "ia-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "fd7d00bf-8e61-4baf-af56-8725fec50b41",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ca247c97-ed5d-4d29-9e6a-e30a476a7ccf",
+          "control-id": "ia-2.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "6e2e09d8-833a-4dd5-b259-3acf722f282e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "a267a2b8-af5d-43aa-8101-119c0a8d5ef7",
+          "control-id": "ia-2.12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b1124192-4cdb-4dd7-9557-8e1350f6bcc1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e7e3aef7-19e1-481c-a367-187fe5d5b520",
+          "control-id": "ia-2.2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4d8c7d38-609f-4840-9657-ece5967d62c1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4bfcd4ca-7508-43bf-b93e-97e4282ee6fc",
+          "control-id": "ia-2.8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "5266d285-4433-49b5-9bf3-4ddd38ac195a",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3deedf10-b5bf-435c-8692-e2c990acc047",
+          "control-id": "ia-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "10dd6774-db89-41aa-8da3-b1b9cdfe9ffe",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "03bd0ac3-b5c7-4b02-87b4-94cc57329871",
+          "control-id": "ia-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e8c97ff4-af70-4531-a733-182f5551624c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d91105ef-26b1-4343-8e9d-dc548d2a0eb9",
+          "control-id": "ia-5.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "cc4ced02-7b57-494c-b108-31bd9d03ee94",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "c02c9f9e-b9d1-4eba-a7b3-3f3b6e932659",
+          "control-id": "ia-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a72656d7-df50-409a-b362-7e47489b6755",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5ec09a99-2545-4553-b592-e7006c8e3c66",
+          "control-id": "ia-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "026aa94d-3892-427d-ba6b-aecaa8fcb1bd",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e8ed208c-d43a-4ca9-a0f1-fd11f799056e",
+          "control-id": "ia-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bddfb520-c887-4138-8c26-1f947b6a965c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e91c4ba5-4342-4eeb-b392-5640b9fd79d0",
+          "control-id": "ia-8.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e993cdf2-b195-4449-9b21-f49d2d444709",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "990cbe69-d66f-4f6f-b41f-c312242fa048",
+          "control-id": "ia-8.2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "dc8cc06f-c73a-4023-a50d-923f65c443b6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "107f2031-ceb8-4ca8-bc94-e1678b4cc264",
+          "control-id": "ia-8.4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b47d52cb-00bf-437c-aac6-4ba654833aa5",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9876c0dc-2d82-4dad-b356-3ed8e50066eb",
+          "control-id": "ir-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4d6861c6-c04d-4baf-b89b-33637637dce4",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "deb72bbb-a930-4351-a6e0-09b7b30d3827",
+          "control-id": "ir-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4aae7a6d-2e35-41ea-8364-a30fe380f3eb",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "94fa9401-72bc-4c87-840e-a002dc3fa4fb",
+          "control-id": "ir-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "87e8d039-c7ff-48ee-a699-603aee3a0d3f",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4e914675-dccd-4460-81e7-3716742470ca",
+          "control-id": "ir-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e4ad8889-0620-42e0-ba35-ff09bca3e0ce",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "69fe3a6a-1eb2-489b-968a-1e688f67f9f2",
+          "control-id": "ir-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "91a18379-ef07-4509-8433-fe8051b99311",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "a4d57b8c-e106-4eeb-b0eb-fe021209a871",
+          "control-id": "ir-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "d4b8c6ba-2232-4fad-abaa-3803ba9095b7",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "63c02a79-0ee4-4742-956b-33f304bfbc1c",
+          "control-id": "ir-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "3141a5bb-3360-4850-a5bb-0e01b7c77abb",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "78705789-7e05-430d-981f-07c9672510be",
+          "control-id": "ma-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "669de148-ffae-4381-b648-d635dfae0445",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "31c2cbb0-78cd-4312-90b9-2beed9051c3b",
+          "control-id": "ma-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "dc0cae11-38a4-4719-b21f-a0260e8d4b1b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "461b8a7b-554e-4988-8dcd-a0ae26de9707",
+          "control-id": "ma-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "84ce9638-d904-4245-b356-e6cf7fa94f19",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "59e0ffc5-57ea-4a60-a169-622fbc0948c3",
+          "control-id": "ma-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e5bfe864-02f0-455c-97b9-8935ed8c7f52",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "b77d732e-69d2-491d-986f-3fbad83f449e",
+          "control-id": "mp-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "ef60dae7-6a5c-46aa-a591-ad3f683ae2c6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7804146c-9b4e-4c8c-a909-18eb336bcb5f",
+          "control-id": "mp-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "10ca93f8-7d4e-485e-b2da-548c959f978b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f5238ce3-946a-4833-aaa3-4ab3aff8fc00",
+          "control-id": "mp-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "34693856-3018-4c99-8877-51af5e0fa9a6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "b3299c76-69fb-405f-8083-644e8356176f",
+          "control-id": "mp-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "923a2ea8-8c42-47e2-b6d0-b445f3736a02",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "486df11e-c185-4303-8ebd-20934606dc10",
+          "control-id": "pe-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "0bde968d-a3dc-4741-ac51-e52ad3129679",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d478f459-098b-4f69-a4a7-3dcd05166fb3",
+          "control-id": "pe-12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4840f4ad-c3a0-4884-bcf6-8744a8a95946",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6fda3da3-1856-40a6-8c4d-d0331b071dcc",
+          "control-id": "pe-13",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b41ed808-c086-4894-8f05-8a59299ae067",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "91b3079f-7176-43cd-a84a-5179195818aa",
+          "control-id": "pe-14",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "38e5fd08-480b-452c-b67c-3ca0b387a491",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7388a604-ddfd-4e34-a9ec-71051dfeea68",
+          "control-id": "pe-15",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "07c99d34-13ed-4144-b5aa-5c88be7ee2bc",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ec89f6d1-7786-4a20-bc19-9045afeb0d36",
+          "control-id": "pe-16",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "eba77216-47c2-49ff-9e6b-208f57ffac12",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f277e3d4-76d4-40af-abb0-8477107895ea",
+          "control-id": "pe-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bb24db3e-5fc6-46e4-b60d-2641544e548e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "09c362e1-4993-49a5-b935-45c9ca086abf",
+          "control-id": "pe-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "76a613fd-5244-4d02-a029-ce69280e3963",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "aca2051a-5b28-41aa-9f8b-cda2e4c78797",
+          "control-id": "pe-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "118acd89-64f9-4099-b016-fd2b24a9dc00",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "537838cd-ede7-4bfa-93a4-af4903970006",
+          "control-id": "pe-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "2564c28e-5f88-4629-b97b-4694af40291e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4fefde24-e748-4f75-93ab-e36b8ae9ffe8",
+          "control-id": "pl-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "0d3a789a-ad63-4b33-80fa-de20815d94cb",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f9b133f1-3678-47d5-95bd-f692ac6d3817",
+          "control-id": "pl-10",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "6da1f0e1-854b-4ade-ad3a-969ca6b51f1c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "221d635b-2316-4c97-a81e-3f4ae1d8cf1a",
+          "control-id": "pl-11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "903799af-cfe9-41e9-9d2a-0156b142c8dd",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f91efcc0-d8ee-4667-9322-51db82bab36f",
+          "control-id": "pl-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "8b198b5f-8965-495f-af67-f826870a0c72",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3ac8aa9b-7bf2-4bff-b017-e50c5d0e5f9b",
+          "control-id": "pl-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "195c1f10-7cbf-4c6d-8003-1178f385bd65",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "91484bbe-0f09-4720-8083-1d0c16da73d7",
+          "control-id": "pl-4.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e49cc224-1606-489d-be25-3fe75b92240e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "ad933af1-4dcf-494a-bef5-e5c7780cf1ce",
+          "control-id": "ps-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "7db7a417-7877-4a57-a295-766572342e63",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "159e8c1c-cbe6-437e-8825-6292f4cb4fda",
+          "control-id": "ps-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "cc687493-8893-480e-b488-400340ab9cad",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9281123d-7acc-4345-8c31-aa28fc4277af",
+          "control-id": "ps-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "86661fa9-64e1-4e40-8035-7b5933387f15",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "16653a9d-0dae-4863-a58f-336e1791cf6e",
+          "control-id": "ps-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a6ab6068-62ba-4570-bd56-53bab1be0b81",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e942a895-5127-419a-b8f9-0565b794ddff",
+          "control-id": "ps-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "1fae2629-c546-4138-ad7c-628d769f924d",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7ad7333c-d3bc-4a28-8967-deaed7808d9d",
+          "control-id": "ps-6",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "57367baa-81ae-4954-b151-bc6dea41d847",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "344ac7a7-46e7-46df-a1fd-b951bd396270",
+          "control-id": "ps-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "58929168-420f-45e0-9b79-c04e8ba23393",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "aacddc28-2af5-4865-84e3-1628e773998c",
+          "control-id": "ps-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a1538128-fb74-4ec4-8184-61dcb0fa59c2",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "2698d02e-9ead-4931-901e-21bc4c94a57d",
+          "control-id": "ps-9",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "50a77f54-6a18-4d70-b652-fcab43e8674d",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "28bfb0af-666e-4b50-9091-aaca79ccc3d8",
+          "control-id": "ra-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "bec02f7b-0039-459f-bc43-e84a6ad4d2f5",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d1bc64fe-efea-4f45-8fcf-d9c09b6e30bf",
+          "control-id": "ra-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "0899e8a5-02ef-4c45-922f-a0e418fd7016",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "573a31f4-b1fa-4083-943b-2bf04a71e9f6",
+          "control-id": "ra-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "568b6228-0ff5-4d66-b875-64ac113c2811",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9cc9b75c-4992-43bf-82ff-27e77a01a249",
+          "control-id": "ra-3.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b3acae38-1922-42f3-86f2-e4edd5abfa94",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3975933e-cf34-4073-b7cc-b9080e6a7edf",
+          "control-id": "ra-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "47892bf5-ff4c-4575-9458-219dcec9e8a1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d5acf926-96c4-4422-9af0-f30d211adc0c",
+          "control-id": "ra-5.11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a380c85b-748d-4bfc-a070-58fed93d7e78",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "0a82ffa8-60bd-4b64-8b71-c3eb0522b98c",
+          "control-id": "ra-5.2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "9d71cb19-0e40-45af-9361-e40817511dcc",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5cb856eb-e109-4b24-8275-9304ca2ab02b",
+          "control-id": "ra-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "5e1713d7-fce2-4f6a-99e2-0fb77882f7c5",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6ccb5d2a-6974-48f5-976b-5e82df95f558",
+          "control-id": "sa-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "62465672-70c5-45dd-9077-16b9aa4b7023",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7e59ec78-4faa-4396-b4c3-1b8608e95b57",
+          "control-id": "sa-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "34daf70f-7e94-4e37-8009-c76310fc44d0",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "1038f06a-b3db-44b3-afe7-ed280534a704",
+          "control-id": "sa-22",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "df68230a-d9a9-4a88-8c6c-761a9e392875",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5f3099c8-8788-4c90-bdfc-8afef19d87c6",
+          "control-id": "sa-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4ce5f79a-9dff-4969-a9c1-177946159bfd",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e17a380e-2698-421e-b2a0-4ac262955eaa",
+          "control-id": "sa-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "feac922e-811f-401c-ab99-e09d57e4c862",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "70706233-fa67-409c-8159-32c725b919f7",
+          "control-id": "sa-4.10",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "90147ad1-82ff-45c8-a4bf-d4a4fc6c3a60",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "1a806a1b-8848-4101-83c8-09f157b9ffaf",
+          "control-id": "sa-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "470fe5a4-b98e-473a-923c-00c678df278a",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "8a7c22ea-c9be-4cf9-be4b-f395e3334c25",
+          "control-id": "sa-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "40a9755e-2ca6-48c2-8154-953e0e29ac83",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7fac89ba-2163-4166-a7fe-b22a5a89e210",
+          "control-id": "sa-9",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "d3ea2188-87c0-451f-84a2-ab740bf1efbc",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "b77073fb-6d2d-4f71-8d56-7517a53636b6",
+          "control-id": "sc-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a875c88b-ab1e-4d14-806d-cf8f34fa407e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "fa79538d-a9d2-4a1e-ac6f-ce94c24260bd",
+          "control-id": "sc-12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "fb1e3ed8-a2b5-4244-a8a7-166b18e1809e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f8e6452f-0aa2-48ef-b4e7-c62467d80252",
+          "control-id": "sc-13",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "092636ca-516b-43c0-9ffb-89c642163a74",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "00c585b8-3981-4762-823b-577f320291ce",
+          "control-id": "sc-15",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "9dcda7b5-2470-4258-9690-27f228cd8c26",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "511f85c7-0c5e-445e-ba09-89a5f28061f8",
+          "control-id": "sc-20",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "3ab06ff8-ef35-41c0-b034-c91f5ed2ce35",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "41b5a4a3-92e3-41e2-ab61-9b51e621a6da",
+          "control-id": "sc-21",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "0d124b74-ef64-496a-8e12-45a36a29577b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "6f5af1af-2cc4-4e3e-960f-122a6f24d9e4",
+          "control-id": "sc-22",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e08a67e3-70e0-49ef-883a-9eea55c10251",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "942b11d5-1cc3-4ce5-9bbb-8dcd1c9d7c77",
+          "control-id": "sc-39",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "e647a35a-2b51-4982-b050-88ee9100c053",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7faac74d-752a-4347-8fb0-e9762ee324aa",
+          "control-id": "sc-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "f98b17e3-1040-4f02-8d90-5cca9260677c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "36dd51dc-5077-4d5f-b9a0-1edd6c81ef54",
+          "control-id": "sc-7",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "075d0b2c-bb5b-42e7-9237-633b473c0de9",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "06493496-bbc8-4a68-8141-b239d3b3ef81",
+          "control-id": "si-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "458c3c68-31a6-4acf-8dc2-ab86a0b2fab0",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "44e51094-66c5-4668-b67c-ce9f4ee09751",
+          "control-id": "si-12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "86561599-27b9-4de5-b27a-234c2fd7b260",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "45d049ec-0461-4480-a1eb-2b65e516bc22",
+          "control-id": "si-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "a3715c76-998f-4c9d-b81a-b4c29be8215b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "3e067043-c671-4539-9fe3-97a58799f0b2",
+          "control-id": "si-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "1938c394-b777-44e2-be85-e4c67a7795c1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "fba918da-ca19-49c8-9808-29b98d5ebdc8",
+          "control-id": "si-4",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "d48be0e8-2b40-4b88-b41d-7b9442a4719e",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "7a540919-9dc6-4b75-a0cf-c1fe9abdbdb5",
+          "control-id": "si-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "04d52b93-e5ba-4028-8e78-ce6d29e4e5da",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "9a3f5548-de91-40d4-b3eb-65c3875b0d1c",
+          "control-id": "sr-1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "38127b11-0ce1-4e8e-a145-c55b5966bea7",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "10c1cc95-4dac-4c61-b831-3bf476fac915",
+          "control-id": "sr-10",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "aa6b851f-95f6-40ba-813d-2d923576c65c",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "4599eac3-f9a4-4bab-9536-724b1b0f35bb",
+          "control-id": "sr-11",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "987f08c6-bf58-4717-9714-2ecbdd15d79f",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "2c54c03c-6ba0-4852-bf1a-3ba293416bb5",
+          "control-id": "sr-11.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "09896190-97c1-43ba-9f43-cd9a4d38ad33",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "dd9b89d2-af59-46a1-b502-1ae3b502bf5e",
+          "control-id": "sr-11.2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "c79c2975-b521-4c11-86f8-d3bcdf45edf6",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "f78fba26-3b35-4f17-a369-51bcf703a683",
+          "control-id": "sr-12",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "297d6a17-5b2f-446f-97c0-85775ba46985",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d6c88989-fae2-4e62-99ac-3f5dc537c57a",
+          "control-id": "sr-2",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "672eb487-4a46-45cd-bbeb-33f29ff5d995",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "44e18fcd-0c63-47b2-8b41-e488a0d8c0c2",
+          "control-id": "sr-2.1",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "4afb7bb7-af98-4930-9843-a1ec8584f7ff",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "86b5b509-d533-4fc7-b76f-420a994c6937",
+          "control-id": "sr-3",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "b8550944-b4a7-44cd-8312-74616b31698a",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "e7ce46c1-8636-4be5-98d7-0ad41957731e",
+          "control-id": "sr-5",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "2dd2f831-21b1-407a-85ce-ebae5cf48c1a",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "bfbe60f4-7c88-48b7-9ecc-b576a87582d5",
+          "control-id": "sr-8",
+          "by-components": [
+            {
+              "component-uuid": "8c403ad0-34ba-4989-819b-7b5324ca2cfd",
+              "uuid": "caf4c819-8681-4676-91bb-ef00a850c8bb",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
